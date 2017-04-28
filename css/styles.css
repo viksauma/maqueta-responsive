@@ -1,0 +1,172 @@
+@import url('normalize.css');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	background-image: url(../images/bg-body.png);
+	margin: 0;
+}
+
+.banner{
+	display: none;
+}
+
+.container{
+	width: 95%;
+	margin: auto;
+}
+
+.logo{
+	display: block;
+	margin: 15px auto 30px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #000;
+}
+
+.toggle-nav{
+	display: block;
+	background-color: #222;
+	width: 40px;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.toggle-nav span{
+	font-size: 2em;
+}
+
+.main-nav{
+	display: none;
+}
+
+.main-nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 30px 0;
+}
+
+.main-nav a{
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	background-color: #333;
+	color: #fff;
+	padding: 20px 10px;
+	border-bottom: solid 1px #fff;
+	text-transform: uppercase;
+}
+
+.product{
+	margin: 30px 0;
+}
+
+.product img{
+	width: 100%;
+}
+
+.product h2{
+	font-size: 2.5em;
+}
+
+.product p{
+	font-size: 1.5em;
+}
+
+.product a{
+	background-color: #333;
+	padding: 15px 25px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.4em;
+	display: inline-block;
+}
+
+.main-footer{
+	border-radius: 15px 15px 0 0;
+	margin-left: 0.83%;
+	margin-right: 0.83%;
+	}
+
+.main-footer ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.main-footer a{
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+	border-bottom: solid 1px #fff;
+}
+@media(min-width:700px){
+  .container{
+     width: 100%;
+     max-width: 1200px;
+   }
+}
+.toggle-nav{
+  display: none;
+}
+.main-nav{
+	display: block;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.main-nav li{
+	float: left;
+	width: 15%;
+	margin: 0 0.83%;
+}
+}
+.main-nav a{
+	font-size: 1.3em;
+	border-bottom: none;
+	text-align: center;
+	}
+}
+.banner{
+	display: block;
+	margin: 0 0.83%;
+}
+.banner img{
+	width: 100%;
+	}
+	.vip-products{
+		overflow: hidden;
+	}
+.product{
+	margin-left:0.83%;
+	margin-right: 0.83%;
+	width: 48.34%;
+	float: left;
+}
+@media (min-width:1000px) {
+	.product{
+		width: 31.66%;
+}
+.main-footer ul{
+	text-align: center;
+	padding: 30px 0;
+}
+.main-footer li{
+	display: inline-block;
+}
+.main-footer a{
+	border-bottom: none;
+	padding: 15px;
+	border-right: solid 1px #fff;
+}
+.main-footer li:last-child a{
+	border-right: none;
+}
